@@ -11,3 +11,7 @@ def pascal(n):
         for j in range(i+1):
             #nCr=n!/(r!(n-r)!)
             print(factorial(i)//(factorial(j)*factorial(i-j)),end=" ")
+              print() 
+N=int(input("Enter a number: "))
+pascal(N)
+print()
